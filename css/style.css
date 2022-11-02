@@ -1,0 +1,111 @@
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+}
+[class*="__container"] {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.main {
+  background: url(../img/1.jpg) 0 0 / cover no-repeat;
+}
+.section__one {
+  background: url(../img/01.png) 0 0 / cover no-repeat;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 150px;
+}
+.section__one:hover {
+  transform: translate(-40%, -40%);
+}
+.section__two {
+  background: url(../img/02.png) 0 0 / cover no-repeat;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 300px;
+  right: 100px;
+}
+.section__two:hover {
+  transform: scale(3);
+}
+.section__three {
+  background: url(../img/03.png) 0 0 / cover no-repeat;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 150px;
+  left: 100px;
+}
+.section__three:hover {
+  transform: rotate(40deg);
+}
+
+.section__four {
+  background: url(../img/04.png) 0 0 / cover no-repeat;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 250px;
+  left: 300px;
+}
+.section__four:hover {
+  transform: skew(20deg, 10deg);
+}
+.section__five {
+  background: url(../img/05.png) 0 0 / cover no-repeat;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  bottom: 300px;
+  left: 1100px;
+}
+.section__five:hover {
+  transform: translate(-10%, -10%) scale(1.5) rotate(-60deg) skew(10deg, 10deg);
+}
+
+.section__six {
+  background: url(../img/06.png) 0 0 / cover no-repeat;
+  width: 260px;
+  height: 345px;
+  position: relative;
+  bottom: 250px;
+  left: 350px;
+}
+.section__six:hover {
+  transform-origin: center;
+  transform: rotate(100deg);
+}
+
+.section__seven {
+  background: url(../img/07.png) 0 0 / cover no-repeat;
+  width: 290px;
+  height: 300px;
+  position: relative;
+  bottom: 1000px;
+  left: 600px;
+  perspective: 300px;
+  perspective-origin: center;
+}
+
+.section__seven:hover {
+  transform: rotateX(60deg);
+}
+
+.section__eight {
+  background: url(../img/08.png) 0 0 / cover no-repeat;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  bottom: 900px;
+  left: 850px;
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.section__eight:hover {
+  transform: rotateY(180deg);
+  transition: all 0.3s ease 0s;
+}
